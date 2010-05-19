@@ -1,0 +1,21 @@
+Alotin koko homman alusta ja käytin tätä ohjetta:
+
+http://search.cpan.org/dist/ExtUtils-MakeMaker/lib/ExtUtils/MakeMaker/FAQ.pod#How_do_I_install_a_module_into_my_home_directory?
+
+
+
+
+Riippuvuussuhteiden puu
+
+
+LWP::UserAgent Asennettu
+HTML::Parser   Asennettu
+HTML::Tagset   Asennettu
+URI            Asennettu, kai. meni share-hakemistoon mutta kopioin lib-hakemistoon
+
+
+Tällä komennolla asetetaan ympäristömuuttuja, josta perl tietää etsiä
+moduulit.
+export PERL5LIB=/home/mikavilpas/lib/perl5/share/perl/5.10.0
+
+

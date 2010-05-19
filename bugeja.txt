@@ -1,0 +1,185 @@
+22:01 -!- File:   HTML document text
+22:01 -!- #ohjelmointiputka MakeGho http://torcs.sourceforge.net/
+
+ja statusikkunasta
+22:01 Use of uninitialized value $line in pattern match (m//) at /home/mikavilpas/.irssi/scripts/link_title.pl line 221.
+22:01 
+22:01 Use of uninitialized value $line in pattern match (m//) at /home/mikavilpas/.irssi/scripts/link_title.pl line 221.
+22:01 
+22:01 Use of uninitialized value $line in pattern match (m//) at /home/mikavilpas/.irssi/scripts/link_title.pl line 221.
+22:01 
+
+
+
+
+14:42 -!- Unsuccessful: 500 Can't connect to www.armitunes.com';:80 (Bad hostname 'www.armitunes.com';') File:   ASCII text
+14:42 -!- #ohjelmointiputka Smar ICY Info: StreamTitle='Kanon - Anemoscope : 12 - The Place Where Winds 
+          Arrive';StreamUrl='http://www.armitunes.com';
+
+muuta regexpiä niin että com-päätteen jälkeen odotetaan merkkiä / tai ei mitään
+
+
+13:22 -!- Unsuccessful: 503 Server Error Can't contact Servlet Runner at localhost:6802
+13:22 -!- (redirected to http://www.hs.fi/kotimaa/artikkeli/My%C3%B6s+vanhemmat+kiusaavat+opettajia+netiss%C3%A4/1135256891839)
+13:22 -!- #ohjelmointiputka Sharph http://www.hs.fi/kotimaa/artikkeli/Myös+vanhemmat+kiusaavat+opettajia+netissä/1135256891839
+
+onkohan sivun koodissa joku vika? sivu toimi kun kokeilin
+
+
+12:33 -!- Unsuccessful: 404 Not Found Husein Muhammed
+12:33 -!- Biaudet'n valinnasta vähemmistövaltuutetuksi kantelu | Kotimaa | YLE Uutiset | yle.fi
+12:33 -!- #piraattipuolue slux : 
+http://huseinmuhammed.blogit.uusisuomi.fi/2010/05/12/valtioneuvosto-vaaransi-vahemmistohttp://huseinmuhammed.blogit.uusisuomi.fi/2010/05/12/valtioneuvosto-vaaransi-vahemmistovaltuutetun-puolueettomuuden-ja-uskottavuuden/ ja 
+          http://yle.fi/uutiset/kotimaa/2010/05/biaudetn_valinnasta_vahemmistovaltuutetuksi_kantelu_1681541.html
+otsikoiden kuuluis tulla yks per rivi, tässä tuli epähuomiossa kaksi ekalle riville ja yksi toiselle
+
+
+
+11:19 -!- Wyniki Szukania w Grafice Google dla http://www.robwesley.com/guitars/Epiphone0Dot-3350cherry02000.jpg
+11:19 -!- #jazz psz mia_wallace: 
+http://www.google.pl/imgres?imgurl=http://www.robwesley.com/guitars/Epiphone%2520Dot-335%2520cherry%25202000.jpg&imgrefurl=http://www.robwesley.com/guitars/&h=1010&w=524&sz=58&tbnid=mdhouG7u3WxD4M:&tbnh=312&tbnw=162&prev=/images%3Fq%3Depiphone%2Bdot&usg=__VQPB-jsyX5Oe4SDsOiHIbgJ_0eE=&ei=dQftS4WdJsmKOID7wasI&sa=X&oi=image_result&resnum=2&ct=image&ved=0CBsQ9QEwAQ
+
+otsikkoon pitää laittaa % tulemaan %%:nä
+
+
+
+
+22:18 -!- Ubuntu -- Ubuntu Packages Search
+22:18 -!- #ohjelmointiputka Tuplanolla http://packages.ubuntu.com
+22:19 -!- Ubuntu -- Ubuntu Packages Search
+22:19 -!- #ohjelmointiputka MakeGho http://packages.ubuntu.com/
+
+urli- ja otsikkovarastosta haku vois ymmärtää että /-merkki ei oo niin tärkee että niiden tarttis olla eri osoitteet
+
+Ympäristö:
+    Markuksen palvelin (irssi 0.8.15)
+Alkutilanne
+    Käyttäjä katsoo urls - ikkunaa backlogin keskeltä. Jokaisella rivillä ikkunassa on tekstiä.
+Oletettu käyttäytyminen
+    Uusia entryjä ei pitäisi näkyä. Niiden kuuluisi mennä kiltisti backlogin loppuun odottamaan
+Todettu käyttäytyminen
+    näkyvän Backlogin kaksi alariviä muuttuvat tyhjiksi riveiksi
+Lisätietoja
+    Päivittämällä ikkunan kadonneet rivit tulevat takaisin
+
+12:11 -!- Hys, hys, el�kkeist� - vaalit l�hestyv�t | Kauppalehti.fi
+12:11 -!- #piraattipuolue Kk3 http://www.kauppalehti.fi/5/i/talous/uutiset/etusivu/uutinen.jsp?oid=2010/05/33375
+
+ääkköset puuttuvat
+
+15:55 -!- Ohjelmointiputka: Suomen p��ministeri (PHP)
+15:55 -!- #ohjelmointiputka kaviaari http://www.ohjelmointiputka.net/koodit_nayta.php?tunnus=504
+
+ääkköset
+
+17:08 -!- File:   HTML document text
+17:08 -!- #irc-galleria ca9 no tämä kaveri ei ainakaan tahtonu: 
+          http://pelaajalehti.com/2008/12/29/mies-suuttui-saadessaan-wiin-joululahjaksi-pidatettiin-pahoinpitelysta/
+
+ei löydä otsikkoa, vaikka sellainen kyllä on
+
+
+11:29 -!- Suomen kreikkalainen miljardituesta: ”Suomi tekee typerästi” — Uusi Suomi
+11:29-!- (redirected to http://www.uusisuomi.fi/ulkomaat/91939-suomen-kreikkalainen-miljardituesta-%E2%80%9Dsuomi-tekee-typerasti%E2%80%9D)
+11:29 -!- #irc-galleria HerrMann 
+          http://www.uusisuomi.fi/ulkomaat/91939-suomen-kreikkalainen-miljardituesta-%E2%80%9Dsuomi-tekee-tyhmasti%E2%80%9D
+11:58 -!- Suomen kreikkalainen miljardituesta: ”Suomi tekee typerästi” — Uusi Suomi
+11:58 -!- #piraattipuolue Jyrsija 
+          http://www.uusisuomi.fi/ulkomaat/91939-suomen-kreikkalainen-miljardituesta-%E2%80%9Dsuomi-tekee-typerasti%E2%80%9D
+
+muistettujen urlien hashiin vois lisätä sekä näkyvän osotteen että loppuosotteen
+tai vaikka kaikki siinä välilläkin.
+ehkä urlit vois laittaa @taulukkoonkin ja lisätä niistä jokaisen jotenkin
+
+
+00:13 -!- Unsuccessful: 400 Bad Request 400 Bad Request
+00:13 -!- #ubuntu.fi escor http://wallpaperswide.com/thumbs/pepper_potts_iron_man_2-t2.jpg
+
+400 bad request tulee 2 kertaa. lisäksi sivu löytyy
+
+12:52 -!- PiratePad: nigger
+12:52 -!-  AndrewRyan http://piratepad.net/nigger
+
+huom välit alemmalla rivillä
+query-pyynnöille pitää jättää jotkin muuttujat pois.
+
+
+Markuksen palvelimella tulee seuraavat virheilmotukset kun ajaa skriptin irssin versiossa 0.8.12:
+[(status)] /script load link_title.plVariable "$urls_window" will not stay shared at (eval 18) line 141.
+Variable "$top_level_domains" will not stay shared at (eval 18) line 146.
+Variable "$max_width" will not stay shared at (eval 18) line 228.
+Variable "%colors" will not stay shared at (eval 18) line 245.
+Variable "$urls_window" will not stay shared at (eval 18) line 335.
+Variable "%colors" will not stay shared at (eval 18) line 347.
+Variable "%word_colors" will not stay shared at (eval 18) line 349.
+Variable "$urls_window" will not stay shared at (eval 18) line 356.
+Variable "%site_headers" will not stay shared at (eval 18) line 376.
+Variable "%nick_headers" will not stay shared at (eval 18) line 399.
+Variable "@interesting_files" will not stay shared at (eval 18) line 411.
+Variable "$url_is_file_header" will not stay shared at (eval 18) line 412.
+Variable "%colors" will not stay shared at (eval 18) line 413.
+Variable "@ignore_files" will not stay shared at (eval 18) line 454.
+Variable "@ignore_nicks" will not stay shared at (eval 18) line 460.
+Variable "@title_cache" will not stay shared at (eval 18) line 471.
+Variable "$title_cache_size" will not stay shared at (eval 18) line 472.
+Variable "@title_cache" will not stay shared at (eval 18) line 482.
+
+
+
+jos linkin perässä on piste, se otetaan mukaan urliin
+sen ei tarttis tulla, koska usein linkit ei lopu pisteeseen
+
+18:24 -!- imgur File:   PNG image, 918 x 584, 8-bit/color RGB, non-interlaced
+18:24 -!- (redirected to /5Fv5P.png)
+18:24 -!- #ubuntu.fi fusion_ http://imgur.com/5Fv5P.png
+
+pitäskö tota muuttaa
+
+
+18:36 -!- Unsuccessful: 302 Object moved Object moved
+18:36 -!- (redirected to http://pol.atlascopco.com/SGSite/default_prod.asp?cookie%5Ftest=1)
+18:36 -!- #irc-galleria Qju` Star^: http://pol.atlascopco.com/SGSite/products/Product_Group.asp?Id=Pionjär+120+%2F+120AV+%2F+140
+
+
+22:31 -!- Irssi: File:   ASCII C program text, with very long lines
+22:31 < Melchiah> : sp3ctum, http://www.amazon.com/John-N-Hansen-Nighthawks%252c-1%252c000%252dpc%252e/dp/B000IZX2MA 
+
+
+
+18:27 -!- Irssi: Magneetti ohjaa nanol��kkeen - Uutiset - Tiede.fi
+18:27 < mika__> http://tiede.fi/uutiset/uutinen.php?id=4160
+ääkköset kuntoon
+
+15:05 -!- Irssi: Unsuccessful: 416 Requested Range Not Satisfiable File:   no read permission
+15:05 < mika__> http://www.thirdreichruins.com/AHBerneli1.jpg
+
+jos otsikon haku ei onnistu niin sitä ei pitäis tallettaa välttämättä muistiinkaan
+
+alla olevalla on kolme vaihtoehtoa
+13:45 -!- Irssi: Unsuccessful: 500 read timeout File:   ASCII text
+13:44 -!- Irssi: Unsuccessful: 404 Not Found Verizon CEO: “We Will Find 
+          Pirates, Throttle Them, and Charge Extra”
+16:27 -!- Unsuccessful: 404 Not Found
+16:27 -!- #piraattipuolue JoonasD6 : 
+http://www.zeropaid.com/news/88603/verizon-ceo-we-will-find-pirates-throttle-them-and-charge-extra/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+zeropaid+%28Zeropaid+File+Sharing+P2P+News%29
+
+
+10:26 -!- Irssi: Unsuccessful: 500 Access to 'https' URIs has been disabled File:   no read permission
+10:26 -!- Irssi: (redirected to 
+https://www.google.com/accounts/ServiceLogin?service=code&ltmpl=phosting&continue=http%3A%2F%2Fcode.google.com%2Fhosting%2FcreateProject)
+10:26 <@mika__> http://code.google.com/hosting/createProject
+
+tuolla on otsikko, ehkä sen vois hakea kohdasta dc:title tjsp, kato lähdekoodi.
+lisää asiasta myöhemmin luettavaksi:
+http://en.wikipedia.org/wiki/Resource_Description_Framework
+
+IDEAT
+		komento, jolla voi lisätä kiinnostavien henkilöiden tai kanavien nimet
+				sitten skripti värittää ne kivoilla väreillä urls- ikkunaan
+    forkkaus ettei tartte odotella niin munasti
+        ks. http://rc.vc/files/delicious/deliciousurl.pl
+    omat headerit seuraaville
+        kuvaton
+        imageshack
+        x
+sivulta vois etsiä h1-tagia jos sillä ei oo otsikkotagia.
