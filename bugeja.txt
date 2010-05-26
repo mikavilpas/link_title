@@ -182,6 +182,8 @@ http://en.wikipedia.org/wiki/Resource_Description_Framework
 IDEAT
 		komento, jolla voi lisätä kiinnostavien henkilöiden tai kanavien nimet
 				sitten skripti värittää ne kivoilla väreillä urls- ikkunaan
+    youtube-tunnistautuminen jollakin dummytilillä
+        ettei tule niitä iänvarmistusjuttuja enää vaan oikea title
     forkkaus ettei tartte odotella niin munasti
         ks. http://rc.vc/files/delicious/deliciousurl.pl
     omat headerit seuraaville
