@@ -1,3 +1,20 @@
+01:34 -!- Unsuccessful: 406 Not Acceptable 406 Not Acceptable
+01:34 -!- #piraattipuolue JoonasD6 : Jos muuten jäi joltain ohitte: http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/
+tuo on olemassa
+
+
+
+11:36 -!- Piertomas Dell'Erba and Simone Porcelli MySpace Musiikissa - Ilmaista musiikkia, kuvia ja videoita
+11:36 -!- #jazz saxtommy  MACROmicroCosmi: http://www.yourindiecd.net/cd/Macromicrocosmi   http://www.myspace.com/jazzvv
+kaksi linkkiä, vain yksi otsikko
+pitäisi olla 2
+
+
+18:13 -!- facebook Unsuccessful: 404 Not Found Sivua ei löytynyt
+18:13 -!- #piraattipuolue JoannaK : http://www.facebook.com/profile.php?id=100001107275498&v=wall&story_fbid=125319937488390
+tuo on olemassa mutta sitä ei löytynyt
+
+
 03:10 -!- flickr Lake Hodges on Flickr - Photo Sharing!
 03:10 -!- #ohjelmointiputka DuClare Niinku vaiks tossa, http://www.flickr.com/photos/inkista/4307169035/
 tosta pitäs poistaa toi mikä ei liity tohon nimeen, eli on Flickr - Photo Sharing!
@@ -182,6 +199,9 @@ http://en.wikipedia.org/wiki/Resource_Description_Framework
 IDEAT
 		komento, jolla voi lisätä kiinnostavien henkilöiden tai kanavien nimet
 				sitten skripti värittää ne kivoilla väreillä urls- ikkunaan
+    komento, jolla voi tarkistaa, onko linkki postattu tällä kanavalla
+    wgetiä vois ehkä käyttää jos ei ole https-mahdollisuutta lwp:ssä
+    saisko tästä modulaarisen? tämä idea vaan paisuu ja paisuu.....
     youtube-tunnistautuminen jollakin dummytilillä
         ettei tule niitä iänvarmistusjuttuja enää vaan oikea title
     forkkaus ettei tartte odotella niin munasti
