@@ -1,3 +1,8 @@
+22:05 -!- File:   XML  document text
+22:05 -!- #nörtti pbe lähteenä oli tää artikkelu http://www.ncbi.nlm.nih.gov/pubmed/19468907
+otsikko on
+
+
 01:34 -!- Unsuccessful: 406 Not Acceptable 406 Not Acceptable
 01:34 -!- #piraattipuolue JoonasD6 : Jos muuten jäi joltain ohitte: http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/
 tuo on olemassa
@@ -216,4 +221,11 @@ sivulta vois etsiä h1-tagia jos sillä ei oo otsikkotagia.
 05:22 -!- #piraattipuolue JoonasD6 : http://www.youtube.com/v/dAa6bOWB8qY&hl=en_US&fs=1&%22%3E%3C/param%3E%3Cparam
 05:24 -!- YouTube File:   Macromedia Flash data (compressed), version 8
 05:24 -!- #piraattipuolue olho_ http://www.youtube.com/v/dAa6bOWB8qY
+
+kato, onko kaikki tarvittavat ohjelmat tähän tyyliin:
+unless(eval "use Net::SMTP::SSL; 1") {
+    Irssi::print("***** Away Mail: Perl module Net::SMTP::SSL must be installed");
+    Irssi::print("***** Away Mail: Install it with CPAN and re-load this script");
+    return;
+}
 
