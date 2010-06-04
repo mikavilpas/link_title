@@ -1,8 +1,3 @@
-22:05 -!- File:   XML  document text
-22:05 -!- #nörtti pbe lähteenä oli tää artikkelu http://www.ncbi.nlm.nih.gov/pubmed/19468907
-otsikko on
-
-
 01:34 -!- Unsuccessful: 406 Not Acceptable 406 Not Acceptable
 01:34 -!- #piraattipuolue JoonasD6 : Jos muuten jäi joltain ohitte: http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/
 tuo on olemassa
@@ -99,13 +94,6 @@ Lisätietoja
 15:55 -!- #ohjelmointiputka kaviaari http://www.ohjelmointiputka.net/koodit_nayta.php?tunnus=504
 
 ääkköset
-
-17:08 -!- File:   HTML document text
-17:08 -!- #irc-galleria ca9 no tämä kaveri ei ainakaan tahtonu: 
-          http://pelaajalehti.com/2008/12/29/mies-suuttui-saadessaan-wiin-joululahjaksi-pidatettiin-pahoinpitelysta/
-
-ei löydä otsikkoa, vaikka sellainen kyllä on
-
 
 11:29 -!- Suomen kreikkalainen miljardituesta: ”Suomi tekee typerästi” — Uusi Suomi
 11:29-!- (redirected to http://www.uusisuomi.fi/ulkomaat/91939-suomen-kreikkalainen-miljardituesta-%E2%80%9Dsuomi-tekee-typerasti%E2%80%9D)
