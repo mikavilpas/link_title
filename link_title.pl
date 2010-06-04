@@ -241,7 +241,7 @@ sub get_title {
     # check if redirected to another site
     my $endurl = $resp->request->uri;
     if ($endurl ne $url) {
-        # irssi needs this
+        # irssi needs this so its internal formatting doesn't get messed up
         $endurl =~ s/%/%%/g;
         $title .= ("\n" . $colors{'redirect_color'} . "(redirected to $endurl)%n");
     }
