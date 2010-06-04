@@ -1,10 +1,3 @@
-18:58 -!- Unsuccessful: 403 Forbidden Parallels H-Sphere
-18:58 -!- #ubuntu.fi Tuipveus yksi ihan mielenkiintoinen projekti pakkaukseen liittyen: http://www.quicklz.com/
-epäonnistunut haku, mutta otsikko löytyi
-ongelmana on se, että tuota otsikkoa ei ole tuolla.. olisko se muuttunut
-
-
-
 22:05 -!- File:   XML  document text
 22:05 -!- #nörtti pbe lähteenä oli tää artikkelu http://www.ncbi.nlm.nih.gov/pubmed/19468907
 otsikko on
