@@ -200,9 +200,9 @@ sub get_title {
     $resp = $ua->get($url, Range => "0-$max_size");
 
     # if not successful, try to fetch the page again
-    if (!$resp->is_success)
+    if ($resp->is_error)
     {
-        until (!($resp->is_error) or $retries == 0)
+        until (($resp->is_success) or $retries == 0)
         {
             #Irssi::print("Didn't get a response, retrying $retries times");
             $resp = $ua->get($url, Range => $max_size);
@@ -249,7 +249,7 @@ sub get_title {
     # if request was unsuccessful
     # return the status line of the http response
     # in case the link was a redirect, include the final url as well
-    if (!$resp->is_success)
+    if ($resp->is_error)
     {
         if ($redirect_info) {
             return "Unsuccessful: " . $resp->status_line . " $redirect_info";
