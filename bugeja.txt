@@ -11,6 +11,12 @@ kokeilin tuota ja se antaa vastauksen 406 not acceptable
 kaksi linkkiä, vain yksi otsikko
 pitäisi olla 2
 
+Fri Jun  4 23:21:15 EEST 2010 en saanu tuota enää toistettua
+
+23:03 -!- File:   ASCII text, with CRLF line terminators
+23:03 -!- #slnt sp3ctum_1 http://www.yourindiecd.net/cd/Macromicrocosmi
+otsikko on ja löytyy /home/mika/newline_removal.pl - apuohjelmalla
+
 
 18:13 -!- facebook Unsuccessful: 404 Not Found Sivua ei löytynyt
 18:13 -!- #piraattipuolue JoannaK : http://www.facebook.com/profile.php?id=100001107275498&v=wall&story_fbid=125319937488390
