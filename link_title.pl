@@ -264,7 +264,9 @@ sub get_title {
     #    $title = "Untitled link";
     #}
 
-    $title = $title . $redirect_info;
+    if (defined $redirect_info) {
+        $title = $title . $redirect_info;
+    }
     $title ? return ($title, $endurl) : return ("No title found within $max_size bytes", "");
 }
 
