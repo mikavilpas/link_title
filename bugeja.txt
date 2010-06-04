@@ -223,6 +223,7 @@ IDEAT
         imageshack
         x
 sivulta vois etsiä h1-tagia jos sillä ei oo otsikkotagia.
+    urls-ikkunan nimen vois ottaa irssin asetuksista ehkä
 
 05:22 -!- YouTube File:   Macromedia Flash data (compressed), version 8
 05:22 -!- #piraattipuolue JoonasD6 : http://www.youtube.com/v/dAa6bOWB8qY&hl=en_US&fs=1&%22%3E%3C/param%3E%3Cparam
