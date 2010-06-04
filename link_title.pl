@@ -180,6 +180,7 @@ sub get_title {
     my ($url) = @_;
     my $title;
     my $error; # TODO tuki virheen tunnistamiselle
+    my $redirect_info;
     my $retries = 2;
     my $resp;
     # large size since some sites have a lot of javascript before the title
@@ -243,15 +244,15 @@ sub get_title {
     if ($endurl ne $url) {
         # irssi needs this so its internal formatting doesn't get messed up
         $endurl =~ s/%/%%/g;
-        $title .= ("\n" . $colors{'redirect_color'} . "(redirected to $endurl)%n");
+        $redirect_info = ("\n" . $colors{'redirect_color'} . "(redirected to $endurl)%n");
     }
     # if request was unsuccessful
     # return the status line of the http response
     # in case the link was a redirect, include the final url as well
     if (!$resp->is_success)
     {
-        if ($title) {
-            return "Unsuccessful: " . $resp->status_line . " $title";
+        if ($redirect_info) {
+            return "Unsuccessful: " . $resp->status_line . " $redirect_info";
         }
         else {
             return "Unsuccessful: " . $resp->status_line;
@@ -263,6 +264,8 @@ sub get_title {
     #if (ignore_this_url($url, $nick)) {
     #    $title = "Untitled link";
     #}
+
+    $title = $title . $redirect_info;
     $title ? return ($title, $endurl) : return ("No title found within $max_size bytes", "");
 }
 
