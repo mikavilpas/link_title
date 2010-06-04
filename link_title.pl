@@ -249,7 +249,7 @@ sub get_title {
     # if request was unsuccessful
     # return the status line of the http response
     # in case the link was a redirect, include the final url as well
-    if ($resp->is_error)
+    if ($resp->is_error and !$title)
     {
         if ($redirect_info) {
             return "Unsuccessful: " . $resp->status_line . " $redirect_info";
