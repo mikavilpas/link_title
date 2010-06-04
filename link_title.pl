@@ -217,21 +217,20 @@ sub get_title {
     my @content = $resp->decoded_content;
     # TODO study this structure to see if extra loop cycles are done redundantly
     if (!$error) {
-        foreach my $line ($resp->decoded_content) {
-            foreach my $tag (('title', 'h1', 'h2')) {
-                if($line =~ m|<[^$tag]*$tag[^>]*>([^<]*)<[^/]*/$tag[^>]*>|si) {
-                    $title = $1;
-                    $title =~ s/\s+/ /g;
-                    $title =~ s/^\s//;
-                    $title =~ s/\s$//;
-                    decode_entities($title);
-              
-                    # TODO max_width could have a clearer name
-                    if(length($title) > $max_width) {
-                        $title = substr($title, 0, $max_width-1) . "\x{2026}";
-                    }
-                    last;
+        my $decoded_content = $resp->decoded_content;
+        foreach my $tag (('title', 'h1', 'h2')) {
+            if($decoded_content =~ m|<\s*?$tag[^>]*>(.*)<[^/]*/$tag[^>]*>|si) {
+                $title = $1;
+                $title =~ s/\s+/ /g;
+                $title =~ s/^\s//;
+                $title =~ s/\s$//;
+                decode_entities($title);
+          
+                # TODO max_width could have a clearer name
+                if(length($title) > $max_width) {
+                    $title = substr($title, 0, $max_width-1) . "\x{2026}";
                 }
+                last;
             }
         }
     }
