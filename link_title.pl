@@ -225,6 +225,7 @@ sub get_title {
                     $title =~ s/\s$//;
                     decode_entities($title);
               
+                    # TODO max_width could have a clearer name
                     if(length($title) > $max_width) {
                         $title = substr($title, 0, $max_width-1) . "\x{2026}";
                     }
