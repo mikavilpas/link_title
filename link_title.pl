@@ -236,12 +236,12 @@ sub get_title {
     }
     if (!$title) {
         $title = "File:   $filetype";
-        $error = 1;
     }
 
     # check if redirected to another site
     my $endurl = $resp->request->uri;
     if ($endurl ne $url) {
+        # irssi needs this
         $endurl =~ s/%/%%/g;
         $title .= ("\n" . $colors{'redirect_color'} . "(redirected to $endurl)%n");
     }
