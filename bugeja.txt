@@ -19,8 +19,11 @@ kokeilin tuota ja se antaa vastauksen 406 not acceptable
 11:36 -!- #jazz saxtommy  MACROmicroCosmi: http://www.yourindiecd.net/cd/Macromicrocosmi   http://www.myspace.com/jazzvv
 kaksi linkkiä, vain yksi otsikko
 pitäisi olla 2
+Fri Jun  4 23:21:15 EEST 2010 
+    en saanu tuota enää toistettua
+Sat Jun  5 21:19:16 EEST 2010
+    Macromicrocosmi - linkki antaa vastauksen File:   ASCII text, with CRLF line terminators
 
-Fri Jun  4 23:21:15 EEST 2010 en saanu tuota enää toistettua
 
 23:03 -!- File:   ASCII text, with CRLF line terminators
 23:03 -!- #slnt sp3ctum_1 http://www.yourindiecd.net/cd/Macromicrocosmi
