@@ -1,3 +1,10 @@
+21:57 -!- File:   no read permission
+21:57 -!- (redirected to https://account.lego.com/SignIn.aspx?ReturnUrl=http://universe.lego.com/help/default.aspx)
+21:57 -!- #piraattipuolue Nakkel : http://universe.lego.com/help
+johtuuko tämä siitä, että https-protokollaa ei tueta syystä x?
+
+
+
 16:07 -!- Object moved
 16:07 -!- (redirected to 
 http://premier.dell.com/portal/start.aspx?customer_id=RC1077977&~tgt=url&redir=http%3a%2f%2faccessories.euro.dell.com%2fsna%2fproductdetail.aspx%3fc%3dfi%26l%3dfi%26s%3dpad%26cs%3dRC1077977%26sku%3d381158%26pmha%3d6)
