@@ -7,12 +7,6 @@ otsikko on
     tuolta tulee redirect-vastaus, mutta tämä skripti ei osaa parsia sitä
 
 
-
-06:02 -!- Kimera
-06:02 -!- #qhimm.com sl1982_ http://forums.qhimm.com/index.php?topic=9955.msg139798
-ei oikea otsikko
-
-
 01:16 -!- File:   HTML document text
 01:16 -!- #ohjelmointiputka Sponji http://www.microsoft.com/visualstudio/en-us/products/2010-editions/ultimate
 otsikko on, sitä ei vain löydy
