@@ -1,3 +1,8 @@
+19:03 -!- File:   ASCII text
+19:03 -!- #irc-galleria diogenes unikissa: http://www.blivet.fi/tuote.php?id=45
+otsikko on
+
+
 17:19 -!- File:   ASCII text
 17:19 -!- #pulseaudio xlotlu http://www.pulseaudio.org/wiki/Modules#module-simple-protocol-unixtcp ..
 17:19 -!- File:   ASCII text
