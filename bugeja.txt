@@ -1,3 +1,8 @@
+08:35 -!- File:   ASCII text
+08:35 -!- #pulseaudio ohsix http://www.pulseaudio.org/ticket/828
+jälleen kerran, otsikko on kyllä
+
+
 21:57 -!- File:   no read permission
 21:57 -!- (redirected to https://account.lego.com/SignIn.aspx?ReturnUrl=http://universe.lego.com/help/default.aspx)
 21:57 -!- #piraattipuolue Nakkel : http://universe.lego.com/help
