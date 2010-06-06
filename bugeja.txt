@@ -1,3 +1,9 @@
+13:52 -!- Lis��k� �lypuhelin lapsesi �ly�? - MTV3.fi - Uutiset - Media uutiset
+13:52 -!- #ohjelmointiputka Racle http://www.mtv3.fi/uutiset/mediait.shtml/arkistot/mediait/2010/06/1139074 ...
+ääkköset puuttuu taas
+
+
+
 08:35 -!- File:   ASCII text
 08:35 -!- #pulseaudio ohsix http://www.pulseaudio.org/ticket/828
 jälleen kerran, otsikko on kyllä
