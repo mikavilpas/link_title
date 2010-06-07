@@ -1,3 +1,98 @@
+13:59 -!- File:   ASCII text
+13:59 -!- #piraattipuolue nawi : http://www.rlslog.net/
+otsikko on tuollakin
+
+
+12:58 -!- File:   no read permission
+12:58 -!- #piraattipuolue Deneidez : Jyrsija: Jep alkaa olla jo arkipäivää, http://www.halla-aho.com/scripta/images/1.JPG
+tuo ei pidä paikkaansa, kuoma
+
+
+
+10:31 -!- File:   ASCII text
+10:31 -!- (redirected to http://openlist.ca/)
+10:31 -!- #piraattipuolue Kivisto : http://bit.ly/b6YxJ tässä näitä taas
+otsikko on taaskin
+
+
+21:34 -!- File:   ASCII text
+21:34 -!- #piraattipuolue ojm : :D http://www.voice.fi/index.php?mw=Sakkolaput&option=com_sbsarticle&tmpl=blog&cid=16596&cat=26
+otsikko on
+
+
+03:08 -!- File:   ASCII text
+03:08 -!- #irssi staircase HTTP://irssi.org/documentation/signals the names tend to be what they do
+otsikko on
+
+
+19:38 -!- File:   ASCII C program text, with very long lines
+19:38 -!- #irc-galleria Kennu saiskohan näillä piparii 
+http://www.amazon.com/Stainless-Steel-Gingerbread-Clip-Earrings/dp/B0030Z0SXQ/ref=sr_1_72?ie=UTF8&s=jewelry&qid=1275928286&sr=1-72
+otsikko on taas
+
+
+20:01 -!- File:   HTML document text
+20:01 -!- #piraattipuolue khnon : http://www.digitoday.fi/wwdc2010/ Jobs tuli juuri lavalle.
+tuolla ei ole otsikkoa, mutta h1-tagi on
+toisaalta sekin on tyhjä, mistä vois ehkä tehdä ilmotuksen erikseen tyyliin
+    no title, empty heading 1 tag
+
+
+20:45 -!- File:   ASCII text
+20:45 -!- (redirected to http://www.hs.fi/politiikka/artikkeli/Rehula%20Suomen%20v%C3%A4hennett%C3%A4v%C3%A4%20150000%20k%C3%B6yh%C3%A4%C3%A4/1135257391294)
+20:45 -!- #piraattipuolue JoannaK : http://www.hs.fi/politiikka/artikkeli/Rehula%20Suomen%20vähennettävä%20150000%20köyhää/1135257391294
+otsikko on
+
+
+21:05 -!- scale.jpg picture by obesebear - Photobucket
+21:05 -!- #qhimm.com obesebear http://s221.photobucket.com/albums/dd138/obesebear/?action=view&current=scale.jpg
+tänne vois tehdä erikoisen headerin
+eikö tänne ollu jo?
+
+
+15:24 -!- File:   ASCII text
+15:24 -!- #piraattipuolue ojm : 
+http://www.google.fi/url?sa=t&source=web&cd=1&ved=0CB0QFjAA&url=http%3A%2F%2Fwww.tinaja.com%2Fglib%2Fcasagpat.pdf&rct=j&q=the+case+against+patents&ei=7OQMTJ2pL8GSOILUzSc&usg=AFQjCNF5QZ5h5eF6qKojpbv_ptNQln5qiQ&sig2=7Ofd_26Jp6qs5NEkagIvJw
+tuo on pdf
+
+
+
+19:38 -!- File:   ASCII C program text, with very long lines
+19:38 -!- #irc-galleria Kennu saiskohan näillä piparii 
+http://www.amazon.com/Stainless-Steel-Gingerbread-Clip-Earrings/dp/B0030Z0SXQ/ref=sr_1_72?ie=UTF8&s=jewelry&qid=1275928286&sr=1-72
+otsikko on
+
+
+
+
+23:26 -!- File:   ASCII text
+23:26 -!- #pulseaudio pulsator Title: Mailing-lists - AlsaProject (at www.alsa-project.org)
+ilmeisesti tuota ei löytynyt, mutta virheestä ei ilmoteta
+
+
+20:27 -!- File:   ASCII text
+20:27 -!- #piraattipuolue l984 http://www.hurriyetdailynews.com/n.php?n=making-a-hell-of-one8217s-life-a-short-histoire-of-gaza-2010-06-06
+20:38 -!- File:   ASCII text
+20:38 -!- #ohjelmointiputka Gwaur http://www.voice.fi/index.php?mw=myytinmurtajat&option=com_sbsarticle&tmpl=blog&cat=26&cid=16425
+20:43 -!- File:   ASCII text
+20:43 -!- #piraattipuolue Nakkel : http://www.voice.fi/index.php?mw=levymyynti+&option=com_sbsarticle&tmpl=blog&cat=1&cid=16657
+22:05 -!- File:   ASCII text
+22:05 -!- #ohjelmointiputka Jokotai http://hevisaurus.com/ vastaus löytyy tuolta
+otsikot hukassa taas
+
+
+näistä vois tulla sama otsikko koska ne todennäkösesti ohjaa samaan tiedostoon
+    vai voisko?
+http://chgs.umn.edu/histories/otherness/images/watermelonA.jpg
+http://www.chgs.umn.edu/histories/otherness/images/watermelonA.jpg
+
+
+14:48 -!- File:   ASCII text
+14:48 -!- #irc-galleria neutri http://www.andrewgrant.org/2008/03/30/how-to-sync-an-iphone-with-two-or-more-computers.html
+otsikkoa ei löydy
+
+
+
 13:52 -!- Lis��k� �lypuhelin lapsesi �ly�? - MTV3.fi - Uutiset - Media uutiset
 13:52 -!- #ohjelmointiputka Racle http://www.mtv3.fi/uutiset/mediait.shtml/arkistot/mediait/2010/06/1139074 ...
 ääkköset puuttuu taas
