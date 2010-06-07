@@ -55,15 +55,16 @@ my %colors = (
 # these headers are put at the very beginning of the title
 # format: regexp => [header, text to delete from title]
 my %site_headers = (
-    "http://www.youtube\." => ["%9You%1Tube%n ", "YouTube "],
-    "https?://www.facebook\." => ["%4%Wfacebook%n ", " . Facebook\$"],
-    "http://..\.wikipedia\.org" => ["%7%kWikipedia%n ", "( - Wikipedia,.*| – Wikipedia.*)\$"],
-    "http://.*upload.wikimedia.org/" => ["%7%kWikimedia%n ", "( - Wikipedia,.*| – Wikipedia.*)\$"],
-    "http://.*twitpic.com/" => ["%9twit%Bpic%n ", " on Twitpic\$"],
-    "http://(i.)?imgur.com" => ["%Bimgur%n ", ""],
-    "http://.+?\.flickr.com" => ["%Bflick%Mr%n ", " -( a set)? on Flickr.*"],
+    "http://www.youtube\."                    => ["%9You%1Tube%n ", "YouTube "],
+    "https?://www.facebook\."                 => ["%4%Wfacebook%n ", " . Facebook\$"],
+    "http://..\.wikipedia\.org"               => ["%7%kWikipedia%n ", "( - Wikipedia,.*| – Wikipedia.*)\$"],
+    "http://.*upload.wikimedia.org/"          => ["%7%kWikimedia%n ", "( - Wikipedia,.*| – Wikipedia.*)\$"],
+    "http://.*twitpic.com/"                   => ["%9twit%Bpic%n ", " on Twitpic\$"],
+    "http://(i.)?imgur.com"                   => ["%Bimgur%n ", ""],
+    "http://.+?\.flickr.com"                  => ["%Bflick%Mr%n ", " -( a set)? on Flickr.*"],
     "http://(www\.)?(media\.)?riemurasia.net" => ["%BRIEMURASIA%n ", "RIEMURASIA"],
-    "http://(pics\.)?kuvaton\.com" => ["%BK%Ru%Yv%Ba%Gt%RON%n ", "KuvatON.com - Funny Pics"]
+    "http://(pics\.)?kuvaton\.com"            => ["%BK%Ru%Yv%Ba%Gt%RON%n ", "KuvatON.com - Funny Pics"],
+    "http://(.+?)?photobucket.com"           => ["%4%Wphotobucket%n ", " - Photobucket"]
     # TODO
     #"http://img\s+.imageshack.\s{1,3}" => ["%Bimgur%n ", ""]
 );
