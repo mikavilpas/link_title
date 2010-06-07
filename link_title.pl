@@ -64,9 +64,7 @@ my %site_headers = (
     "http://.+?\.flickr.com"                  => ["%Bflick%Mr%n ", " -( a set)? on Flickr.*| on Flickr - Photo Sharing!"],
     "http://(www\.)?(media\.)?riemurasia.net" => ["%BRIEMURASIA%n ", "RIEMURASIA"],
     "http://(pics\.)?kuvaton\.com"            => ["%BK%Ru%Yv%Ba%Gt%RON%n ", "KuvatON.com - Funny Pics"],
-    "http://(.+?)?photobucket.com"           => ["%4%Wphotobucket%n ", " - Photobucket"]
-    # TODO
-    #"http://img\s+.imageshack.\s{1,3}" => ["%Bimgur%n ", ""]
+    "http://(.+?)?photobucket.com"            => ["%4%Wphotobucket%n ", " - Photobucket"],
 );
 
 my $max_width = 200;
