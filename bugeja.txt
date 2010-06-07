@@ -1,3 +1,9 @@
+Mon Jun  7 23:44:00 EEST 2010
+lisäsin projektin juurikansioon bugin joka tuli kun multiplecleanlinkchan.pl - skriptin toiminta muuttui
+2010-06-07_23:40:52_20520screenshot.jpg
+
+
+
 13:59 -!- File:   ASCII text
 13:59 -!- #piraattipuolue nawi : http://www.rlslog.net/
 otsikko on tuollakin
