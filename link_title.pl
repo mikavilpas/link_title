@@ -219,7 +219,7 @@ sub get_title {
     # TODO study this structure to see if extra loop cycles are done redundantly
     if (!$error) {
         my $decoded_content = $resp->decoded_content;
-        foreach my $tag (('title', 'h1', 'h2')) {
+        TAG: foreach my $tag (('title', 'h1', 'h2')) {
             if($decoded_content =~ m|<\s*?$tag[^>]*?>(.*?)<[^/]*?/$tag[^>]*?>|si) {
                 $title = $1;
                 $title =~ s/\s+/ /g;
@@ -231,7 +231,7 @@ sub get_title {
                 if(length($title) > $max_width) {
                     $title = substr($title, 0, $max_width-1) . "\x{2026}";
                 }
-                last;
+                last TAG;
             }
         }
     }
