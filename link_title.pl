@@ -143,9 +143,10 @@ sub parse
     
     # for every link found in message
     # TODO kokeile eri regexpejäkin
+    # TODO slice regexp up if possible, this is hard to read
     while ($data =~ m{((?:http://|www\.)(?:www\.)?(?:.*?\.)?([^/@\s>]+\.
               $top_level_domains|[a-z][a-z])
-              [^\s>]*)}ixg) 
+              [^\s>]*?)[\W]}ixg) 
     {
         $url = $1;
         my $endurl; # if link is redirected, this is the final url
