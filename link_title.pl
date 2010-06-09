@@ -146,7 +146,7 @@ sub parse
     # TODO slice regexp up if possible, this is hard to read
     while ($data =~ m{((?:http://|www\.)(?:www\.)?(?:.*?\.)?([^/@\s>]+\.
               $top_level_domains|[a-z][a-z])
-              [^\s>]*?)[\W]}ixg) 
+              [^\s>]*)[\W]}ixg) 
     {
         $url = $1;
         my $endurl; # if link is redirected, this is the final url
