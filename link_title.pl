@@ -65,6 +65,7 @@ my %site_headers = (
     "http://(www\.)?(media\.)?riemurasia.net" => ["%BRIEMURASIA%n ", "RIEMURASIA"],
     "http://(pics\.)?kuvaton\.com"            => ["%BK%Ru%Yv%Ba%Gt%RON%n ", "KuvatON.com - Funny Pics"],
     "http://(.+?)?photobucket.com"            => ["%4%Wphotobucket%n ", " - Photobucket"],
+    "http://(.+?)?naurunappula.com"           => ["%RNAURU%KNAPPULA%n ", "Naurunappula:( hauskat )?"]
 );
 
 my $max_width = 200;
