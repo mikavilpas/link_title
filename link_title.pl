@@ -220,7 +220,7 @@ sub get_title {
     if (!$error) {
         my $decoded_content = $resp->decoded_content;
         foreach my $tag (('title', 'h1', 'h2')) {
-            if($decoded_content =~ m|<\s*?$tag[^>]*>(.*)<[^/]*/$tag[^>]*>|si) {
+            if($decoded_content =~ m|<\s*?$tag[^>]*?>(.*?)<[^/]*?/$tag[^>]*?>|si) {
                 $title = $1;
                 $title =~ s/\s+/ /g;
                 $title =~ s/^\s//;
