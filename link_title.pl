@@ -148,7 +148,7 @@ sub parse
     # TODO slice regexp up if possible, this is hard to read
     while ($data =~ m{((?:http://|www\.)(?:www\.)?(?:.*?\.)?([^/@\s>]+\.
               $top_level_domains|[a-z][a-z])
-              [^\s>]*)[\W]}ixg) 
+              [^\s>]*)[\W]?}ixg) 
     {
         $url = $1;
         my $endurl; # if link is redirected, this is the final url
@@ -225,17 +225,17 @@ sub get_title {
         my $p = HTML::HeadParser->new($h);
         $p->parse($resp->decoded_content);
         undef $p;
-        $title = $h->title or Irssi::print ("slnt");
-
-        $title =~ s/\s+/ /g;
-        $title =~ s/^\s//;
-        $title =~ s/\s$//;
-        decode_entities($title);
-  
-        # TODO max_width could have a clearer name
-        if(length($title) > $max_width) {
-            $title = substr($title, 0, $max_width-1) . "\x{2026}";
-        }
+        if ($title = $h->title) {
+						$title =~ s/\s+/ /g;
+						$title =~ s/^\s//;
+						$title =~ s/\s$//;
+						decode_entities($title);
+			
+						# TODO max_width could have a clearer name
+						if(length($title) > $max_width) {
+								$title = substr($title, 0, $max_width-1) . "\x{2026}";
+						}
+				}
     }
     if (!$title) {
         $title = "File:   $filetype";
