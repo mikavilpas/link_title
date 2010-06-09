@@ -25,8 +25,10 @@
 
 use Irssi;
 use Irssi::Irc;
+require HTML::HeadParser; # for fetching tags inside document
+require HTTP::Headers; # for fetching tags inside document
 use LWP::UserAgent;
-use HTML::Entities;
+use HTML::Entities;   # for decoding titles
 use IPC::Open2; # for determining file type with the "file" command
 
 use warnings;
@@ -215,24 +217,25 @@ sub get_title {
         $filetype = "Could not determine file type";
         $error = 1;
     }
-    my @content = $resp->decoded_content;
     # TODO study this structure to see if extra loop cycles are done redundantly
     if (!$error) {
-        my $decoded_content = $resp->decoded_content;
-        TAG: foreach my $tag (('title', 'h1', 'h2')) {
-            if($decoded_content =~ m|<\s*?$tag[^>]*?>(.*?)<[^/]*?/$tag[^>]*?>|si) {
-                $title = $1;
-                $title =~ s/\s+/ /g;
-                $title =~ s/^\s//;
-                $title =~ s/\s$//;
-                decode_entities($title);
-          
-                # TODO max_width could have a clearer name
-                if(length($title) > $max_width) {
-                    $title = substr($title, 0, $max_width-1) . "\x{2026}";
-                }
-                last TAG;
-            }
+
+        # this is almost an exact copy of the example at:
+        # http://search.cpan.org/~gaas/HTML-Parser-3.65/lib/HTML/HeadParser.pm
+        my $h = HTTP::Headers->new;
+        my $p = HTML::HeadParser->new($h);
+        $p->parse($resp->decoded_content);
+        undef $p;
+        $title = $h->title or Irssi::print ("slnt");
+
+        $title =~ s/\s+/ /g;
+        $title =~ s/^\s//;
+        $title =~ s/\s$//;
+        decode_entities($title);
+  
+        # TODO max_width could have a clearer name
+        if(length($title) > $max_width) {
+            $title = substr($title, 0, $max_width-1) . "\x{2026}";
         }
     }
     if (!$title) {
