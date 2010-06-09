@@ -196,12 +196,6 @@ Variable "@title_cache" will not stay shared at (eval 18) line 482.
 jos linkin perässä on piste, se otetaan mukaan urliin
 sen ei tarttis tulla, koska usein linkit ei lopu pisteeseen
 
-18:24 -!- imgur File:   PNG image, 918 x 584, 8-bit/color RGB, non-interlaced
-18:24 -!- (redirected to /5Fv5P.png)
-18:24 -!- #ubuntu.fi fusion_ http://imgur.com/5Fv5P.png
-
-pitäskö tota muuttaa
-
 
 18:36 -!- Unsuccessful: 302 Object moved Object moved
 18:36 -!- (redirected to http://pol.atlascopco.com/SGSite/default_prod.asp?cookie%5Ftest=1)
