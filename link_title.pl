@@ -217,7 +217,6 @@ sub get_title {
         $filetype = "Could not determine file type";
         $error = 1;
     }
-    # TODO study this structure to see if extra loop cycles are done redundantly
     if (!$error) {
 
         # this is almost an exact copy of the example at:
