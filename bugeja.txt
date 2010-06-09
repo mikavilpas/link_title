@@ -1,33 +1,3 @@
-20:01 -!- File:   HTML document text
-20:01 -!- #piraattipuolue khnon : http://www.digitoday.fi/wwdc2010/ Jobs tuli juuri lavalle.
-tuolla ei ole otsikkoa, mutta h1-tagi on
-toisaalta sekin on tyhjä, mistä vois ehkä tehdä ilmotuksen erikseen tyyliin
-    no title, empty heading 1 tag
-
-
-14:48 -!- File:   ASCII text
-14:48 -!- #irc-galleria neutri http://www.andrewgrant.org/2008/03/30/how-to-sync-an-iphone-with-two-or-more-computers.html
-otsikkoa ei löydy
-
-
-
-13:52 -!- Lis��k� �lypuhelin lapsesi �ly�? - MTV3.fi - Uutiset - Media uutiset
-13:52 -!- #ohjelmointiputka Racle http://www.mtv3.fi/uutiset/mediait.shtml/arkistot/mediait/2010/06/1139074 ...
-ääkköset puuttuu taas
-
-
-
-08:35 -!- File:   ASCII text
-08:35 -!- #pulseaudio ohsix http://www.pulseaudio.org/ticket/828
-jälleen kerran, otsikko on kyllä
-
-
-21:57 -!- File:   no read permission
-21:57 -!- (redirected to https://account.lego.com/SignIn.aspx?ReturnUrl=http://universe.lego.com/help/default.aspx)
-21:57 -!- #piraattipuolue Nakkel : http://universe.lego.com/help
-johtuuko tämä siitä, että https-protokollaa ei tueta syystä x?
-
-
 
 16:07 -!- Object moved
 16:07 -!- (redirected to 
@@ -36,30 +6,6 @@ http://premier.dell.com/portal/start.aspx?customer_id=RC1077977&~tgt=url&redir=h
 otsikko on
     Sat Jun  5 21:14:14 EEST 2010
     tuolta tulee redirect-vastaus, mutta tämä skripti ei osaa parsia sitä
-
-
-01:34 -!- Unsuccessful: 406 Not Acceptable 406 Not Acceptable
-01:34 -!- #piraattipuolue JoonasD6 : Jos muuten jäi joltain ohitte: http://eaves.ca/2010/04/14/case-study-open-data-and-the-public-purse/
-tuo on olemassa
-Fri Jun  4 22:29:28 EEST 2010
-kokeilin tuota ja se antaa vastauksen 406 not acceptable
-
-
-
-11:36 -!- Piertomas Dell'Erba and Simone Porcelli MySpace Musiikissa - Ilmaista musiikkia, kuvia ja videoita
-11:36 -!- #jazz saxtommy  MACROmicroCosmi: http://www.yourindiecd.net/cd/Macromicrocosmi   http://www.myspace.com/jazzvv
-kaksi linkkiä, vain yksi otsikko
-pitäisi olla 2
-Fri Jun  4 23:21:15 EEST 2010 
-    en saanu tuota enää toistettua
-Sat Jun  5 21:19:16 EEST 2010
-    Macromicrocosmi - linkki antaa vastauksen File:   ASCII text, with CRLF line terminators
-
-
-23:03 -!- File:   ASCII text, with CRLF line terminators
-23:03 -!- #slnt sp3ctum_1 http://www.yourindiecd.net/cd/Macromicrocosmi
-otsikko on ja löytyy /home/mika/newline_removal.pl - apuohjelmalla
-
 
 18:13 -!- facebook Unsuccessful: 404 Not Found Sivua ei löytynyt
 18:13 -!- #piraattipuolue JoannaK : http://www.facebook.com/profile.php?id=100001107275498&v=wall&story_fbid=125319937488390
