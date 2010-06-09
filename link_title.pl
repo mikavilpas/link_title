@@ -218,7 +218,7 @@ sub get_title {
         $error = 1;
     }
     if (!$error) {
-
+				# TODO add support for tags (('title', 'h1', 'h2'))
         # this is almost an exact copy of the example at:
         # http://search.cpan.org/~gaas/HTML-Parser-3.65/lib/HTML/HeadParser.pm
         my $h = HTTP::Headers->new;
